@@ -1,0 +1,56 @@
+=== SUNSET HOTEL ===
+Date: 2025-05-21 14:05:27
+Waiter: Admin
+Table: 05
+-------------------
+Ugali Kuku           600.00
+  x1
+-------------------
+TOTAL:     600.00
+Thank you for your visit!
+=== SUNSET HOTEL ===
+Date: 2025-05-21 14:09:58
+Waiter: Admin
+Table: 05
+-------------------
+Lemon Mojito         1200.00
+  x4
+-------------------
+TOTAL:    1200.00
+Thank you for your visit!
+=== SUNSET HOTEL ===
+Date: 2025-05-21 15:41:49
+Waiter: Admin
+Table: 05
+-------------------
+Lemon Mojito         1200.00
+  x4
+-------------------
+TOTAL:    1200.00
+Thank you for your visit!
+=== SUNSET HOTEL ===
+Date: 2025-05-21 15:49:22
+Waiter: Admin
+Table: 05
+-------------------
+Caramel Special      300.00
+  x1
+Lemon Mojito         300.00
+  x1
+Ugali Kuku           600.00
+  x1
+-------------------
+TOTAL:    1200.00
+Thank you for your visit!
+=== SUNSET HOTEL ===
+Date: 2025-05-21 16:02:13
+Waiter: Admin
+Table: 05
+-------------------
+Caramel Special      600.00
+  x2
+Ugali Kuku           1200.00
+  x2
+-------------------
+TOTAL:    1800.00
+Thank you for your visit!

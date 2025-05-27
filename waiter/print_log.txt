@@ -1,0 +1,35 @@
+Array
+(
+    [order_items] => [{"name":"Ugali Kuku","price":600,"qty":1}]
+    [total_amount] => 600
+    [print_receipt] => 1
+    [direct_print] => 1
+)
+Array
+(
+    [order_items] => [{"name":"Lemon Mojito","price":300,"qty":4}]
+    [total_amount] => 1200
+    [print_receipt] => 1
+    [direct_print] => 1
+)
+Array
+(
+    [order_items] => [{"name":"Lemon Mojito","price":300,"qty":4}]
+    [total_amount] => 1200
+    [print_receipt] => 1
+    [direct_print] => 1
+)
+Array
+(
+    [order_items] => [{"name":"Caramel Special","price":300,"qty":1},{"name":"Lemon Mojito","price":300,"qty":1},{"name":"Ugali Kuku","price":600,"qty":1}]
+    [total_amount] => 1200
+    [print_receipt] => 1
+    [direct_print] => 1
+)
+Array
+(
+    [order_items] => [{"name":"Caramel Special","price":300,"qty":2},{"name":"Ugali Kuku","price":600,"qty":2}]
+    [total_amount] => 1800
+    [print_receipt] => 1
+    [direct_print] => 1
+)

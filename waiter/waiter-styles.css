@@ -1,0 +1,268 @@
+/* waiter-styles.css - Consistent with main dashboard */
+
+:root {
+    --primary: #FF4E50;
+    --primary-light: #FF7A5C;
+    --secondary: #F9D423;
+    --dark: #2D3748;
+    --light: #F7FAFC;
+    --gray: #E2E8F0;
+    --success: #48BB78;
+    --warning: #ED8936;
+    --danger: #F56565;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F7FA;
+    color: var(--dark);
+    overflow-x: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    min-height: 100vh;
+    background: white;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 10;
+    padding: 1.5rem 0;
+}
+
+.sidebar .logo-container {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.hotel-logo {
+    width: 80%;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.hotel-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 0;
+}
+
+.sidebar .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    margin: 0.25rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: all 0.2s ease;
+}
+
+.sidebar .nav-link i {
+    width: 24px;
+    text-align: center;
+}
+
+.sidebar .nav-link:hover {
+    background: linear-gradient(to right, rgba(255, 78, 80, 0.1), rgba(249, 212, 35, 0.1));
+    color: var(--primary);
+}
+
+.sidebar .nav-link.active {
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    color: white;
+    box-shadow: 0 4px 6px rgba(255, 78, 80, 0.3);
+}
+
+.sidebar .nav-link.active i {
+    color: white;
+}
+
+/* Main Content */
+.main-content {
+    padding: 1.5rem;
+    background-color: #F5F7FA;
+}
+
+.header {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.user-name {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.user-role {
+    font-size: 0.75rem;
+    color: #718096;
+    background-color: var(--gray);
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--gray);
+}
+
+.card-header {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--gray);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    color: white;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 4px 8px rgba(255, 78, 80, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid var(--gray);
+}
+
+.btn-outline:hover {
+    background: var(--gray);
+}
+
+/* Tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--gray);
+    font-weight: 600;
+}
+
+.table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+/* Forms */
+.form-control {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray);
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Order Status Badges */
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.status-pending {
+    background-color: var(--warning);
+    color: white;
+}
+
+.status-confirmed {
+    background-color: var(--success);
+    color: white;
+}
+
+.status-closed {
+    background-color: var(--dark);
+    color: white;
+}
+
+/* Order Items */
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px dashed var(--gray);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 70px;
+        padding: 1rem 0;
+    }
+    .sidebar .logo-container {
+        padding: 0 0.5rem;
+    }
+    .hotel-name {
+        display: none;
+    }
+    .hotel-logo {
+        width: 50px;
+    }
+    .sidebar .nav-link span {
+        display: none;
+    }
+    .sidebar .nav-link {
+        justify-content: center;
+        padding: 0.75rem;
+    }
+}

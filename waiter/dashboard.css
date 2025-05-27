@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff3e0;
+    margin: 0;
+}
+
+.main-content {
+    margin-left: 240px;
+    padding: 1rem;
+}
+
+.category-tabs .category-tab {
+    background: linear-gradient(to right, #ffca28, #f44336);
+    color: white;
+    border: none;
+    margin: 0.25rem;
+    border-radius: 50px;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+}
+
+.category-tabs .category-tab i {
+    margin-right: 0.4rem;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product-card {
+    width: 180px;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.product-card:hover {
+    border: 2px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #ffca28, #f44336);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.product-card img {
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.order-summary {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    background: white;
+    height: 100vh;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.order-summary .logo {
+    width: 60px;
+    height: auto;
+}
+
+#receipt-items {
+    margin-top: 1rem;
+}
